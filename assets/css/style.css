@@ -1,0 +1,81 @@
+@property --text-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #ddd;
+
+}
+body{
+    background-color: #222 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background-color: red;
+
+}
+
+img{
+    width: 80%;
+    /* height: 80%; */
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding: 20px ;
+
+    margin: 0 auto;
+}
+.carousel-frame{
+    max-width: 500px;
+margin-bottom: 10px;    
+}
+
+.carousel-img{
+    border-radius: 25px;
+}
+
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    margin:40px;
+
+}
+
+.carousel{
+    width: 600px;
+    /* background-color: red   ;     */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.count-text{
+    color: var(--text-color);
+}
+
+.title-dark{
+    color: var(--text-color);
+}
+
+#contador{
+    color: white;
+    font-size: 22px;
+}
+
+.contadorzinho{
+    /* background-color: red; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
